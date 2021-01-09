@@ -16,3 +16,7 @@ footer {
     top:150px;
     right:650px;
 }
+
+a:link a:visited, a:hover, a:active {
+    color:#ffffff;
+  }
