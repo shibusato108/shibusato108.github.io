@@ -13,18 +13,19 @@ h2{
     margin-bottom: 0.5rem;
 }
 
-header{
+header, footer{
     background-color: #4169e1;
     color: #ffffff;
     text-align: center;
     margin: 40px;
+   /* border-radius: 10px*/
 }
-footer {
+/*footer {
     background-color: #4169e1;
     color: #ffffff;
     text-align: center;
     margin: 40px;
-}
+}*/
 /*
 .picture{
     position: relative;
@@ -32,6 +33,12 @@ footer {
     right:650px;
 }
 */
+
+header img {
+width: 200px;
+height: auto;
+}
+
 a:link, a:visited, a:hover, a:active {
     color:#ffffff;
   }
