@@ -17,12 +17,22 @@ header img {
     border-radius: 0 10px 0 0;
     }
 
-    img{
-        float: right;
-        width:100%;
-        max-width: 100%;
-        height: auto;
-        
+    main{
+        grid-template-columns: 1fr 1fr;
     }
+main section:nth-child(2){
+    display: block;
+}
+main section:nth-child(3){
+    grid-column:span 2;
+
+}
+main section picture{
+    display: block;
+}
+main section picture img{
+    width: 100%;
+    height: auto;
+}
 
 }
