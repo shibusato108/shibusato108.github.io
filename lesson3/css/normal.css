@@ -81,14 +81,23 @@ header, footer{
     text-align: center;
     margin: 40px;
 }*/
+main article {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+    background-color: #eee;
+    
+}
 
 
 main{
-    max-width: 767px;
-    margin: 0 auto;
+    
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     font-size: 0.8rem;
+}
+article:nth-child(3) {
+    grid-column: span 1;
 }
 /*footer {
     background-color: #4169e1;
@@ -103,20 +112,23 @@ main{
     right:650px;
 }
 */
-main section{
+
+main article{
     margin: 0.5rem;
     padding: 0 1rem;
 }
 
-main section:nth-child(2){
+    /*main article:nth-child(2){
     display: none;
     margin: 0.5rem;
-}
+}*/
 
 header img {
 width: 200px;
 height: auto;
 }
+
+
 
 main section img{
    /* float: left;*/
