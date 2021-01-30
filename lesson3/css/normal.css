@@ -90,12 +90,14 @@ main article {
 }
 
 
-main{
-    
+main {
+    display: flex;
+	flex-flow: column;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 0.8rem;
 }
+
 article:nth-child(3) {
     grid-column: span 1;
 }
