@@ -35,6 +35,11 @@ header, footer{
    /* border-radius: 10px*/
 }
 
+picture.photoA{
+    display: block;
+    width: 96%;
+    margin: 0 2%
+}
 
 #Fri{
     color: #000000;

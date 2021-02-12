@@ -47,14 +47,20 @@
       </ul>
   </nav>
   <br>
-  <main><br>
+  <main class="clearfix"><br>
       <h2>Preston Idaho</h2>
 
       <div class="box1">
        
           <h3>Weather Summary</h3>
           <div class="herostats">
-          <img class="summary" src="/lesson6/images/town.jpg">
+            <picture class="photoA">
+              <source media="(max-width: 200px)" srcset="/lesson6/images/hero_200.jpg">
+               <source media="(max-width: 500px)" srcset="/lesson6/images/hero_500.jpg">
+              <source media="(max-width: 800px)" srcset="/lesson6/images/hero_800.jpg">
+               <img src="/lesson6/images/hero_1100.jpg" alt="mountain">
+          </picture>
+          <!--<img class="summary" src="/lesson6/images/town.jpg">-->
           <section class="stats">
             <h3>Current Weather</h3>
             <p>Weather: <span id="weather"></span>Sunny</span></p>
