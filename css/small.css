@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-h1, h2, h3 { font-family: 'Source Sans Pro', sans-serif; }
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');*/
+
+h1, h2, h3 { font-family: 'Roboto','Montserrat','Source Sans Pro', sans-serif; }
 
 h1{
     font-size: 1.5rem;
