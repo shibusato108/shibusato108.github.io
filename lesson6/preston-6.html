@@ -21,31 +21,8 @@
   
  
   <script src="/lesson6/js/script.js" defer></script>
-  <script>
-    function doInputOutput(){
-    let temp = 50;//parseFloat(document.getElementById("temp").innerHTML);
-    let speed = 12;//parseFloat(document.getElementById("Speed").innerHTML);
-    let display = windChill(temp,speed);
-
-   // if(temp>50){
-     //   if(speed<4.8)
-      //  var display = N\/A;
-    //}else{
-        document.getElementById('wind').innerHTML = display;
-
-   
-    //}
- 
-}
-
-function windChill(t,s){
-
-    let chillFactor = 35.74 + 0.6215 * t - 35.75*Math.pow(s,0.16) + 0.4275*t *Math.pow(s,0.16);
-    return chillFactor.toFixed(2);
-}
-
-  </script>
-  <!--<script src="/lesson6/js/windchill.js" defer></script>-->
+  
+  <script src="/lesson6/js/windchill.js" defer></script>
  
 </head>
 <body onload="Settoday();">
@@ -91,7 +68,7 @@ function windChill(t,s){
             <h3>Weather Summary</h3>
             <p>Weather: <span id="weather">Sunny</span></p>
             <p>Tempreture: <span id="temp">54</span>F</p>
-            <button type="button" onclick="doInputOuput()">Wind Chill</button>
+            <button type="button" onclick="doInputOutput()">Wind Chill</button>
             <p>Wind Chill: <span id ="wind"></span>F</p>
             
             
