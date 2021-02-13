@@ -21,4 +21,16 @@
         height:300px;
     
     }
+
+    .stats {
+        position: absolute;
+        top: 25px;
+        left: 35px;
+        background: radial-gradient(#eee, #328a09);
+    
+    .clearfix:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
 }

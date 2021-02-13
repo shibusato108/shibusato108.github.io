@@ -1,6 +1,7 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
 
-h1, h2, h3 { font-family: 'Source Sans Pro', sans-serif; }
+h1, h2, h3 { font-family: 'Montserrat','Source Sans Pro', sans-serif; }
 
 h1{
     font-size: 2rem;
@@ -130,8 +131,9 @@ img {
 .stats {
 	position: absolute;
 	top: 25px;
-	left: 25px;
+	left: 35px;
 	background: radial-gradient(#eee, #328a09);
+    padding: 10px;
 
 .clearfix:after{
     content: "";
