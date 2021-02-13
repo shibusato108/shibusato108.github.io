@@ -21,7 +21,31 @@
   
  
   <script src="/lesson6/js/script.js" defer></script>
-  <script src="/lesson6/js/windchill.js"></script>
+  <script>
+    function doInputOutput(){
+    let temp = 50;//parseFloat(document.getElementById("temp").innerHTML);
+    let speed = 12;//parseFloat(document.getElementById("Speed").innerHTML);
+    let display = windChill(temp,speed);
+
+   // if(temp>50){
+     //   if(speed<4.8)
+      //  var display = N\/A;
+    //}else{
+        document.getElementById('wind').innerHTML = display;
+
+   
+    //}
+ 
+}
+
+function windChill(t,s){
+
+    let chillFactor = 35.74 + 0.6215 * t - 35.75*Math.pow(s,0.16) + 0.4275*t *Math.pow(s,0.16);
+    return chillFactor.toFixed(2);
+}
+
+  </script>
+  <!--<script src="/lesson6/js/windchill.js" defer></script>-->
  
 </head>
 <body onload="Settoday();">
@@ -65,13 +89,14 @@
           <!--<img class="summary" src="/lesson6/images/town.jpg">-->
           <section class="stats">
             <h3>Weather Summary</h3>
-            <p>Weather: <span id="weather"></span>Sunny</span></p>
+            <p>Weather: <span id="weather">Sunny</span></p>
             <p>Tempreture: <span id="temp">54</span>F</p>
-          
+            <button type="button" onclick="doInputOuput()">Wind Chill</button>
             <p>Wind Chill: <span id ="wind"></span>F</p>
             
-            <p>Humidity: <span id="humid">80</span>%</p>
-            <p>Wind Speed: <span id="speed" onload="InputOutput()">12</span>mph</p>
+            
+            <!--<p>Humidity: <span id="humid">80</span>%</p>-->
+            <p>Wind Speed: <span id="speed">12</span>mph</p>
            </section>
            
            </div>
@@ -117,9 +142,9 @@ It was not until the 1880s while William C. Parkinson was serving as the bishop 
       id="byui">BYU-I Online Learning</a>
     
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script>
     webFont.load({google:{families: ["Montserrat"]}});
-  </script>
+  </script>-->
 </body>
 </html>  

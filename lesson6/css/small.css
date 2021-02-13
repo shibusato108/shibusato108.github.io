@@ -114,7 +114,7 @@ img {
 
 
 .herostats{
-    margin 10px auto;
+    margin: 10px auto;
     position: relative;
 }
 
@@ -134,7 +134,7 @@ img {
 	left: 35px;
 	background: radial-gradient(#eee, #328a09);
     padding: 10px;
-
+}
 .clearfix:after{
     content: "";
     display: table;

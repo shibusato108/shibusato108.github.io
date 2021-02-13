@@ -61,7 +61,7 @@ nav ul.hide{display: block;}
 	top: 25px;
 	left: 55px;
 	background: radial-gradient(#eee, #328a09);
-
+}
 .clearfix:after{
     content: "";
     display: table;

@@ -1,8 +1,8 @@
 
 
-function InputOutput(){
-    let temp = parseFloat(document.getElementById("temp").value);
-    let speed = parseFloat(document.getElementById("Speed").value);
+function doInputOutput(){
+    let temp = parseFloat(document.getElementById("temp").innerHTML);
+    let speed = parseFloat(document.getElementById("Speed").innerHTML);
     let display = windChill(temp,speed);
 
    // if(temp>50){
