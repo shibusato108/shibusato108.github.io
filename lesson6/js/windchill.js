@@ -1,6 +1,6 @@
 function doInputOutput(){
-    let temp = 49;//parseFloat(document.getElementById("temp"));
-    let speed = 12;//parseFloat(document.getElementById("Speed"));
+    let temp = 49; //parseFloat(document.getElementById("temp").textContent); 
+    let speed = 12; //parseFloat(document.getElementById("Speed").textContent); 
     let display = windChill(temp,speed);
 
   //  if(temp>50&&speed<4.8){
