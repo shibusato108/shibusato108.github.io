@@ -1,0 +1,78 @@
+@media only screen and (min-width: 35em){
+
+    header img{
+        float: left;
+        width: 200px;
+        height: auto;
+        
+    }
+
+
+    nav ul{margin-left: 2%;}
+
+    nav ul li{
+        float: left;
+    }
+    nav ul li{
+        float: left;
+    }
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .8rem 1rem;
+    
+    }
+
+nav button{display: none;}
+
+nav ul.hide{display: block;}
+
+.box2{display:grid;}
+
+
+.weather{
+   
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.map{
+    display:block;
+    margin-right:10px;
+    float:left;
+    width:20%;
+    height:auto;
+}
+
+.town2{
+    width:300px;
+    height:200px;
+    float: left;
+    margin-right: 10px;
+}
+.box4{
+    height:250px;
+
+}
+.stats {
+	position: absolute;
+	top: 25px;
+	left: 55px;
+	background: radial-gradient(#eee, #328a09);
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+    /*img {
+       
+        width: 450px;
+        height:auto;
+    }
+    */
+
+
+}

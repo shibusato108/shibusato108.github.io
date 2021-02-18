@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+ img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
+
+picture img{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+
+}
+
+header, footer{
+    background-color: #1d8309;
+    color: #ffffff;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+ }
+
+
+
+
+
+footer a:visited{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
