@@ -36,11 +36,8 @@ header, footer{
    /* border-radius: 10px*/
 }
 
-picture.photoA{
-    display: block;
-    width: 96%;
-    margin: 0 2%
-}
+
+
 
 #Fri{
     color: #000000;
@@ -100,41 +97,18 @@ width: 200px;
 height: auto;
 }
 
-img {
+/*img {
     width:100%;
+    height: auto;
+}*/
+
+
+.image {
+
+    width: 300px;
     height: auto;
 }
 
-.town2{
-    width:100%;
-    height:auto;
-}
-
-.map{display: none;}
-
-
-.herostats{
-    margin: 10px auto;
-    position: relative;
-}
-
-/*.hero{
-    margin:10px auto;
-    width: 960px;
-    height: 300px;
-}*/
-
-.box2{display:none;}
-
-
-
-.stats {
-	position: absolute;
-	top: 25px;
-	left: 35px;
-	background: radial-gradient(#eee, #328a09);
-    padding: 10px;
-}
 .clearfix:after{
     content: "";
     display: table;

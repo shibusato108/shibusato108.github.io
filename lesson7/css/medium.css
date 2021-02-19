@@ -27,41 +27,16 @@ nav button{display: none;}
 
 nav ul.hide{display: block;}
 
-.box2{display:grid;}
 
 
-.weather{
-   
-    width: 100%;
-    height: auto;
-    
-}
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
 
 
-.map{
-    display:block;
-    margin-right:10px;
-    float:left;
-    width:20%;
-    height:auto;
-}
 
-.town2{
-    width:300px;
-    height:200px;
-    float: left;
-    margin-right: 10px;
-}
-.box4{
-    height:250px;
-
-}
-.stats {
-	position: absolute;
-	top: 25px;
-	left: 55px;
-	background: radial-gradient(#eee, #328a09);
-}
 .clearfix:after{
     content: "";
     display: table;
