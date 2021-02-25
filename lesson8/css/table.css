@@ -1,0 +1,45 @@
+@charset "utf-8";
+body { font-family: 'Ubuntu', 'sans-serif'; }
+
+
+
+table, th, td, caption {
+    border: 0.5px solid rgb(168, 166, 166);
+  }
+
+  caption {
+    padding: 0.5em; 
+    color: #000; 
+    font-weight: bold; 
+    font-size: 30px;
+    background: #7fb9c2; 
+  }
+
+  th, td {
+    text-align: center;
+  }
+
+  table tr:nth-child(1){
+    background-color:#628ca6; 
+    color: #fff;
+  }
+  #last {
+    background-color:#628ca6; 
+    font-weight:bold;
+  }
+
+  #Nov{
+    background-color: #628ca6;
+    color: #fff; 
+  }
+  /*table tr:nth-child(odd){background-color:#e7f0ed;}*/
+
+  table tr:nth-child(even){background-color:#e7f0ed;}
+
+  
+
+
+  tr.gray { background-color: #e7f0ed; }
+
+  tr.green { background-color: #e7ffed; }
+  
