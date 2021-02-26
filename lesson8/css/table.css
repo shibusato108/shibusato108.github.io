@@ -1,10 +1,20 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
 body { font-family: 'Ubuntu', 'sans-serif'; }
+
+table{
+  margin: auto;
+}
 
 
 
 table, th, td, caption {
+    
+    padding: 10px 10px 10px 10px;
     border: 0.5px solid rgb(168, 166, 166);
+    border-collapse: collapse;
+    
   }
 
   caption {
@@ -14,6 +24,16 @@ table, th, td, caption {
     font-size: 30px;
     background: #7fb9c2; 
   }
+  thead, tfoot{
+    background-color:#628ca6; 
+    font-weight: bold;
+  }
+  thead{
+    color: #fff;
+  }
+  tfoot{
+    color: #000;
+  }
 
   th, td {
     text-align: center;
@@ -22,27 +42,19 @@ table, th, td, caption {
  
   /*table tr:nth-child(8) {
     background-color:#628ca6; 
-    font-weight:bold;*/
-  }
+    font-weight:bold;
+  }*/
 
   
-  }
+  tbody tr{background-color:#e7ffed}
   
-  table tr:nth-child(odd){background-color:#e7ffed; }
+  tbody tr:nth-child(odd){background-color:#e7f0ed; }
   /*table tr {background-color:#e7ffed; }*/
   
 
-  table tr:nth-child(even){background-color:#e7f0ed;}
+  /*table tr:nth-child(even){background-color:#e7f0ed;}*/
 
-  table tr:nth-child(1){
-    background-color:#628ca6; 
-    color: #fff;
-  }
-  table tr:nth-child(8){
-    background-color:#628ca6; 
-    color: #fff;
-    font-weight: bold;
-  }
+  
 
   /*tr.gray { background-color: #e7f0ed; }*/
 
@@ -51,4 +63,5 @@ table, th, td, caption {
   #Nov{
     background-color: #628ca6;
     color: #fff; 
+  }
   
