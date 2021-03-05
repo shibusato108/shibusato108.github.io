@@ -95,7 +95,22 @@ picture.photoA{
     display: block;
     width: 96%;
     margin: 0 2%
+
 }
+
+
+/*------images--------*/
+
+/*--------main--------*/
+div.cards{
+    
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    background-color: rgb(195, 231, 62);
+
+}
+
 
 /*-------contact info ------*/
 

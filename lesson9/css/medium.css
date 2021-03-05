@@ -62,6 +62,16 @@ nav ul.hide{display: block;}
 	left: 55px;
 	background: radial-gradient(#eee, #328a09);
 }
+
+div.cards{
+    
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(195, 231, 62);
+
+}
+
 .clearfix:after{
     content: "";
     display: table;
