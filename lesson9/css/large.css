@@ -26,7 +26,7 @@
     
         display: grid;
         gap: 10px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         background-color: rgb(195, 231, 62);
     
     }
