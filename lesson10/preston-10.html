@@ -21,13 +21,14 @@
   
  
   <script src="/lesson10/js/script.js" defer></script>
-  <script src="/lesson10/js/currentweatherapi.js" defer></script>
-  <script src="/lesson10/js/forecastweather.js" defer></script>
+  <script src="/lesson10/js/currentweatherapi.js"></script>
+  <script src="/lesson10/js/forecastweather.js"></script>
   
-  <script src="/lesson10/js/windchill.js" defer></script>
+  <script src="/lesson10/js/windchill.js"></script>
  
 </head>
 <body onload="doInputOutput(); Settoday()">
+
   <!--<aside style="display: block;">_</aside>-->
   <header>
     <div id="Fri" style="display:none">
@@ -71,8 +72,10 @@
             <p>Weather: <span id="weather"></span></p>
             <p>Tempreture: <span id="temp"></span>F</p>
             <p>Humidity: <span id="humidity"></span></p>
-            <!--<button type="button" onclick="doInputOutput()">Wind Chill</button>-->
+            
             <p>Wind Chill: <span id ="wind"></span>F</p>
+            <button type="button" onclick="doInputOutput()">Reload</button>
+            <p id="caution">*if Windchill not loaded click Reload</p>
             
             
             <!--<p>Humidity: <span id="humid">80</span>%</p>-->
@@ -144,5 +147,6 @@ It was not until the 1880s while William C. Parkinson was serving as the bishop 
   <script>
     webFont.load({google:{families: ["Montserrat"]}});
   </script>-->
+  
 </body>
 </html>  

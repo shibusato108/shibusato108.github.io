@@ -1,15 +1,11 @@
 function doInputOutput(){
-    let temp = parseFloat(document.getElementById("temp").innerHTML); 
-    let speed = parseFloat(document.getElementById("speed").innerHTML); 
+    let temp = parseFloat(document.getElementById("temp").textContent); 
+    let speed = parseFloat(document.getElementById("speed").textContent); 
     let display = windChill(temp,speed);
 
     
 
-  //  if(temp>50&&speed<4.8){
-      
-     //   var display = "N\/A";
-     //   document.getElementById('wind').innerHTML = display;
-    //}else{
+  
        document.getElementById('wind').innerHTML = display;
    
 

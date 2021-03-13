@@ -120,6 +120,9 @@ img {
 #icon5{
     width:30%;
 }
+#caution{
+    font-size: 3px;
+}
 .town2{
     width:100%;
     height:auto;
