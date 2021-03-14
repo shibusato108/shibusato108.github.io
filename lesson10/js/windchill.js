@@ -1,12 +1,15 @@
+
+
 function doInputOutput(){
-    let temp = parseFloat(document.getElementById("temp").textContent); 
-    let speed = parseFloat(document.getElementById("speed").textContent); 
-    let display = windChill(temp,speed);
+    
+let temp = parseFloat(document.getElementById("temp").textContent); 
+let speed = parseFloat(document.getElementById("speed").textContent); 
+   let display = windChill(temp,speed);
 
     
 
   
-       document.getElementById('wind').innerHTML = display;
+      document.getElementById('wind').innerHTML = display;
    
 
    
