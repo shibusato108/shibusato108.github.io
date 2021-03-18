@@ -9,7 +9,7 @@ fetch(requestURL)
     // console.table(jsonObject);  // temporary checking for valid response and data parsing
      const towns = jsonObject['towns'];
          for (let i = 0; i < towns.length; i++ ) {
-            if(i==5){
+            if(i==0){
              let card = document.createElement('section');
              let h1 = document.createElement('h1');
              let motto = document.createElement('p');
@@ -32,7 +32,7 @@ fetch(requestURL)
              card.setAttribute("class", "card");
              
              document.querySelector("div.cards").appendChild(card);
-            } else  if(i==1){
+            } else  if(i==2){
                 let card = document.createElement('section');
                 let h1 = document.createElement('h1');
                 let motto = document.createElement('p');
