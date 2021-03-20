@@ -46,6 +46,10 @@ header img {
     height: auto;
     }
 
+.pic{
+    text-align:justify;
+}
+
 #Fri{
     color: #000000;
     height:auto;
@@ -244,6 +248,8 @@ img {
 .box2{display:none;}
 
 div.card{
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     display: grid;
     width: 600px;
@@ -252,6 +258,7 @@ div.card{
     background-color: rgb(195, 231, 62);
 
 }
+
 
 
 
