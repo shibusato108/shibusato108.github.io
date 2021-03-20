@@ -243,6 +243,16 @@ img {
 
 .box2{display:none;}
 
+div.card{
+    text-align: center;
+    display: grid;
+    width: 600px;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    background-color: rgb(195, 231, 62);
+
+}
+
 
 
 .stats {
