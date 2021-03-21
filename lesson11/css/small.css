@@ -256,9 +256,10 @@ img {
 div.card{
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
+    padding: 10px;
     display: grid;
-    width: 800px;
+    width: 400px;
     gap: 10px;
     grid-template-columns: 1fr;
     background-color: rgb(195, 231, 62);

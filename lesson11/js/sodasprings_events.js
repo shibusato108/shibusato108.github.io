@@ -9,14 +9,23 @@ fetch(requestURL)
    //  console.table(jsonObject);  // temporary checking for valid response and data parsing
      const towns = jsonObject['towns'];
              let card = document.createElement('section');
-             let event = document.createElement('p');
+             let event1 = document.createElement('p');
+             let event2 = document.createElement('p');
+             let event3 = document.createElement('p');
+             let event4 = document.createElement('p');
              
              
-             event.textContent = towns[0].events;
+             event1.textContent = towns[0].events[0];
+             event2.textContent = towns[0].events[1];
+             event3.textContent = towns[0].events[2];
+             event4.textContent = towns[0].events[3];
              
              
  
-             card.appendChild(event);
+             card.appendChild(event1);
+             card.appendChild(event2);
+             card.appendChild(event3);
+             card.appendChild(event4);
              card.setAttribute("class", "card");
             
              
