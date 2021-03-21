@@ -73,12 +73,14 @@ nav ul li a:hover{
 
 
 nav ul li.active a{
+
     color: #000002;
     font-weight: bold;
 }
 
 
 nav ul{
+ 
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -89,12 +91,16 @@ nav ul.hide{
 }
 
 nav button{
+
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
     color: #000000;
 }
+
+
+    
 
 
 /*------------form---------*/
@@ -252,7 +258,7 @@ div.card{
     margin-right: auto;
     text-align: center;
     display: grid;
-    width: 600px;
+    width: 800px;
     gap: 10px;
     grid-template-columns: 1fr;
     background-color: rgb(195, 231, 62);
@@ -270,6 +276,7 @@ div.card{
     padding: 10px;
 }
 .clearfix:after{
+ 
     content: "";
     display: table;
     clear: both;
