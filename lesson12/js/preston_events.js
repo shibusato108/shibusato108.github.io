@@ -15,10 +15,10 @@ fetch(requestURL)
              let event4 = document.createElement('p');
              
              
-             event1.textContent = towns[6].events[0];
-             event2.textContent = towns[6].events[1];
-             event3.textContent = towns[6].events[2];
-             event4.textContent = towns[6].events[3];
+             event1.textContent = towns[0].events[0];
+             event2.textContent = towns[0].events[1];
+             event3.textContent = towns[0].events[2];
+             event4.textContent = towns[0].events[3];
             
              
              
