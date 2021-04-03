@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>The Weather Site
+   
+  </title>
+    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="This is a weather site for Soda Springs Idaho.">
+ 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/lesson11/css/small.css">
+  <link rel="stylesheet" href="/lesson11/css/medium.css">
+  <link rel="stylesheet" href="/lesson11/css/large.css">
+  <link rel="stylesheet" href="/lesson11/css/normalize.css">
+  
+ 
+  
+ 
+  <script src="/lesson11/js/script.js" defer></script>
+  <script src="/lesson11/js/currentweatherapi_sodasprings.js"></script>
+  <script src="/lesson11/js/forecastweather_sodasprings.js"></script>
+  <script src="/lesson11/js/sodasprings_events.js"></script>
+  
+  <!--<script src="/lesson10/js/windchill.js"></script>-->
+ 
+</head>
+<!--<body onload="doInputOutput(); Settoday()">-->
+ <!-- <body onload="Settoday()">-->
+ <body>
+
+  <!--<aside style="display: block;">_</aside>-->
+  <header>
+    <!--<div id="Fri" style="display:none">
+      Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <div id="others" style="display:none">
+    </div>-->
+   
+    <img src="/lesson11/images/rainbow.png" alt="rainbow">
+    <h1>The Weather Site</h1><br>
+    <h2> What a wonderful World</h2>
+  </header>
+  <nav class="clearfix">
+    <button onclick="hamburger()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="/lesson11/index.html">Home </a> </li>
+        <li><a href="/lesson11/preston.html">Preston</a> </li>
+        <li class="active"><a href="/lesson11/SodaSprings.html">Soda Springs</a></li>
+        <li><a href="/lesson11/FishHeaven.html">Fish Heaven</a></li>
+        <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+        <li><a href="/lesson11/galery.html">Gallery</a></li>
+      </ul>
+  </nav>
+  <br>
+  <main class="clearfix"><br>
+      <h2>Soda Springs Idaho</h2>
+
+       
+       <div class="box1">
+       
+          <h3>Weather Summary</h3>
+          <div class="herostats">
+            <picture class="photoA">
+              <source media="(max-width: 200px)" srcset="/lesson11/images/hero_200.jpg">
+               <source media="(max-width: 500px)" srcset="/lesson11/images/hero_500.jpg">
+              <source media="(max-width: 800px)" srcset="/lesson11/images/hero_800.jpg">
+               <img src="/lesson10/images/hero_1100.jpg" alt="mountain">
+          </picture>
+          <!--<img class="summary" src="/lesson6/images/town.jpg">-->
+          <section class="stats">
+            <h3>Weather Summary</h3>
+            <p>Weather: <span id="weather"></span></p>
+            <p>Temperature: <span id="temp"></span>F</p>
+            <p>Humidity: <span id="humidity"></span></p>
+            
+            <p>Wind Chill: <span id ="wind"></span>F</p>
+            <!--<button type="button" onclick="doInputOutput()">Reload</button>
+            <p id="caution">*if Windchill not loaded click Reload</p>-->
+            
+            
+            <!--<p>Humidity: <span id="humid">80</span>%</p>-->
+            <p>Wind Speed: <span id="speed"></span>mph</p>
+           </section>
+           
+           </div>
+          <p>
+            This page is telling basic weathe about Soda Springs Idaho. 
+            Population is about 3000.
+            The city has been the county seat of Caribou County since the county was organized in 1919. 
+            In the 1860s, Soda Springs served as the seat of Oneida County.
+            
+          </p>
+
+      </div>
+      <h3>Events</h3>
+      <div class="card"></div>
+
+      <div class="box2">
+        <h3>5 Day Forecast</h3>
+        <table class="weather" border="1">
+          <tr>
+            <th><p><span id="dayofWeek1"></span>:<span id="forecast1"></span>&deg; F</p></th>
+            <th><p><span id="dayofWeek2"></span>:<span id="forecast2"></span>&deg; F</p></th>
+            <th><p><span id="dayofWeek3"></span>:<span id="forecast3"></span>&deg; F</p></th>
+            <th><p><span id="dayofWeek4"></span>:<span id="forecast4"></span>&deg; F</p></th>
+            <th><p><span id="dayofWeek5"></span>:<span id="forecast5"></span>&deg; F</p></th>
+           
+            </tr>
+         <tr>
+            <td><p><span id="image1"></span>&nbsp;<img src="" alt="" id="icon1"></p></td>
+            <td><p><span id="image2"></span>&nbsp;<img src="" alt="" id="icon2"></p></td>
+            <td><p><span id="image3"></span>&nbsp;<img src="" alt="" id="icon3"></p></td>
+            <td><p><span id="image4"></span>&nbsp;<img src="" alt="" id="icon4"></p></td>
+            <td><p><span id="image5"></span>&nbsp;<img src="" alt="" id="icon5"></p></td>
+          </tr>
+         
+        
+        </table>
+      </div>
+      <div class="box3">
+        <h3>Article</h3>
+        <img class="town2" src ="/lesson11/images/sodasprings.jpg">
+        <p>
+          The city is named for the hundreds of natural springs of carbonated water that are located in and around the city.
+          The springs were well known to Native Americans and were a famous landmark along the Oregon Trail in the middle 19th century. Today the city is also known as the location of the Soda Springs Geyser, which was unleashed in 1934 when "town fathers" were looking for hot water for a "hot pool" bathing attraction. Instead they drilled into a chamber of highly pressurized carbon dioxide gas and cold water and the geyser was released. After running for weeks, and flooding the downtown area, it was capped and manually released when requested as a tourist attraction. Now it is let loose every hour on the hour by a timed release valve. Its height and volume have not decreased after many years. There are viewing platforms at either end of the travertine mound where the geyser erupts. Interpretive signs are located on the platforms explaining this phenomenon.
+
+          Soda Springs is also the location of one of the Ground Observer Corps sites.
+(From Wikipedia: Soda Springs Idaho - History https://en.wikipedia.org/wiki/Soda_Springs,_Idaho)
+
+        </p>
+
+      </div>
+      <div class="box4">
+        <h3>Contact Information</h3>
+        <img class="map" src="/lesson11/images/map.png">
+       
+        <p>Phone: +81-90-3333-2211</p>
+        <p>Email: whatthewonderfulworld@ksksk.com </p>
+
+      </div>
+       
+  </main>
+  <footer>
+    &copy;<script type="text/javascript" src="/js/script.js"></script> | The Weather SIte | Preston Idaho | <a href="https://www.byui.edu/online"
+      id="byui">BYU-I Online Learning</a>
+    
+  </footer>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    webFont.load({google:{families: ["Montserrat"]}});
+  </script>-->
+  
+</body>
+</html>  

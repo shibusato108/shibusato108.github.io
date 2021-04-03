@@ -1,0 +1,15 @@
+{
+    "towns": [
+      {
+        "name": "Higashi-Matsuyama",
+        "photo": "matsuyama.jpg",
+        "motto": "Town of flower, town of walking.",
+        "yearFounded": 1954,
+        "currentPopulation": 	92440,
+        "averageRainfall": 15.75,
+        "events": [
+          "April 10- May 5: Peony festival",
+          "Nov 1-1: 3 Days March"
+        ]
+      },
+    }

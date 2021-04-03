@@ -1,0 +1,90 @@
+@media only screen and (min-width: 70em) {
+	.summary{
+        widows: 90%;
+        height: auto;
+        text-align: center;
+    }
+    
+    .weather{
+        width:80%;
+        height: auto;
+        text-align: center;
+    }
+
+    .town2{
+        width:300px;
+        height:200px;
+        float: left;
+        margin-right: 10px;
+    }
+    .box4{
+        height:300px;
+    
+    }
+
+    div.cards{
+    
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: rgb(195, 231, 62);
+    
+    }
+
+    div.firsttown{
+        padding: 20px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 2fr;
+        background-color: #E6D327;
+    
+    }
+
+    div.secondtown{
+        padding: 20px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 3fr 2fr;
+        background-color: #E6D327;
+    
+    }
+
+
+    .stats {
+        position: absolute;
+        top: 25px;
+        left: 35px;
+        background: radial-gradient(#eee, #328a09);
+    }
+   /* .clearfix:after{
+        content: "";
+        display: table;
+        clear: both;
+    }*/
+/*-----------------form ----------*/
+form label.sbs{
+    padding: .4rem 0;
+}
+
+/*---------------gallery-----------*/
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.stats {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    background: radial-gradient(#eee, #27E6D7);
+}
+/* .clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+.image:hover {box-shadow: 0 0 50px #333;}
+
+}
