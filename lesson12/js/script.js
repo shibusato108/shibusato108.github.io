@@ -5,17 +5,16 @@ function hamburger(){
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
-function Settoday(){
-    var today = new Date() ;
-   // var weekday = [ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ] ;
-   var weekday = today.getDate(); 
-    if(weekday== "5"){
-        document.getElementById("Fri").style.display="block";
-    }else{
-        document.getElementById("others").style.display="block";
-    }
+//function DispAlert(){
+   
+  // var alert = main.today.getDate(); 
+    //if(weekday== "5"){
+     //   document.getElementById("Fri").style.display="block";
+    //}else{
+     //   document.getElementById("others").style.display="block";
+    //}
      
-  }
+  //}
 
 
   function adjustRating(rating) {

@@ -74,6 +74,15 @@ div.firsttown{
 
 }
 
+div.cards2{
+        
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #27E6D7;
+
+}
+
 .clearfix:after{
     content: "";
     display: table;

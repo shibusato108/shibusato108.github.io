@@ -1,20 +1,9 @@
 /*----------main--------*/
-h1, h2{color:#ffffff;}
-h1{
-    text-align:center;
-}
-main{
-    width:100%;
-}
 
-img{
-    max-width: 70%;
-   
-}
 
 /*-----class------*/
 
-div.cards{
+div.cards2{
     
    /* display: grid;
     gap: 10px;
@@ -27,11 +16,11 @@ div.cards{
 
 
 
-.card {
+.cards2 {
     border: 1px solid #ffffff;
     padding: 1em;
     margin: 1em auto;
-    background-color: #0628FF);
+    background-color: #0628FF;
     text-align: center;
 }
 
@@ -39,12 +28,12 @@ div.cards{
 
 
 @media only screen and (min-width: 35em){
-    div.cards{
-    
+    div.cards2{
+        
         display: grid;
         gap: 10px;
         grid-template-columns: 1fr 1fr;
-        background-color: rgb(199, 168, 240);
+        background-color: #27E6D7;
     
     }
 }
@@ -52,12 +41,12 @@ div.cards{
 
 @media only screen and (min-width: 70em) {
 
-    div.cards{
+    div.cards2{
     
         display: grid;
         gap: 10px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        background-color: rgb(199, 168, 240);
+        background-color: #27E6D7;
     
     }
 

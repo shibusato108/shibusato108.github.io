@@ -307,6 +307,20 @@ div.card{
 
 }
 
+div.cards2{
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 10px;
+    display: grid;
+    width: 400px;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    background-color: rgb(195, 231, 62);
+
+}
+
 div.firsttown{
     text-align:center;
     padding: 20px;

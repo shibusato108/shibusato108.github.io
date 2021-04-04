@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="/lesson12/css/medium.css">
   <link rel="stylesheet" href="/lesson12/css/large.css">
   <link rel="stylesheet" href="/lesson12/css/normalize.css">
+ 
   
  
   
@@ -24,17 +25,19 @@
   <script src="/lesson12/js/currentweatherapi.js"></script>
   <script src="/lesson12/js/forecastweather.js"></script>
   <script src="/lesson12/js/events.js"></script>
+  <script src="/lesson12/js/alert.js"></script>
+  <script src="/lesson12/js/ad.js"></script>
   
   
  
 </head>
 
-  <body onload="Settoday()"></body>
+  <body>
 
   <!--<aside style="display: block;">_</aside>-->
   <header>
-    <div id="Fri" style="display:none">
-      Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+    <div id="alert" style="display:none">
+     
     </div>
     <div id="others" style="display:none">
     </div>
@@ -49,7 +52,7 @@
         <li class="active"><a href="/lesson12/index.html">Home </a> </li>
         <li><a href="/lesson12/business.html">Directory</a> </li>
         <li><a href="/lesson12/faq.html">Contact</a></li>
-        <!--<li><a href="/lesson12/current_members.html">Current Members</a></li>-->
+        <li><a href="/lesson12/current_members.html">City</a></li>
         <li><a href="/lesson12/future_members.html">Join</a></li>
         
       </ul>
@@ -87,7 +90,11 @@
 
       </div>
       <h3>Upcomming Events</h3>
-      <div class="card"></div>
+      <div class="card">
+        <p>Jan 15-16: Carrier Forum @ City Hall</p>
+        <p>Apr 8-10: Peony Festival</p>
+        <p>Nov 1-3: 3 Days March</p>        
+      </div>
 
       <div class="box2">
         <h3>3 Day Forecast</h3>
@@ -132,7 +139,10 @@
          
       
        </div>
+       <h2>Advertizement</h2>
+       <div class="cards2">
 
+       </div>
 
 
        <div class="snslink">

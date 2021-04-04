@@ -23,14 +23,21 @@
     }
 
     div.cards{
-    
+        
         display: grid;
         gap: 10px;
         grid-template-columns: 1fr 1fr 1fr;
         background-color: rgb(195, 231, 62);
     
     }
-
+    div.cards2{
+        font-size:12px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #4BFC38;
+    
+    }
     div.firsttown{
         padding: 20px;
         display: grid;
