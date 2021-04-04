@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>Higashi-Matsuyama Chamber of Commerce
+   
+  </title>
+    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="This is a weather site for Preston Idaho.">
+ 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="shortcut icon" href="/lesson12/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/lesson12/css/small.css">
+  <link rel="stylesheet" href="/lesson12/css/medium.css">
+  <link rel="stylesheet" href="/lesson12/css/large.css">
+  <link rel="stylesheet" href="/lesson12/css/normalize.css">
+  
+ 
+  
+ <!--<script src="/lesson12/js/script_index.js" defer></script>-->
+  <script src="/lesson12/js/script.js" defer></script>
+  <script src="/lesson12/js/currentweatherapi.js"></script>
+  <script src="/lesson12/js/forecastweather.js"></script>
+  <script src="/lesson12/js/events.js"></script>
+  
+  
+ 
+</head>
+
+  <body onload="Settoday()"></body>
+
+  <!--<aside style="display: block;">_</aside>-->
+  <header>
+    <div id="Fri" style="display:none">
+      Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <div id="others" style="display:none">
+    </div>
+   
+    <img class="peony" src="/lesson12/images/peony.jpg" alt="peony">
+    <h1>For All Businesses for Higashi-Matsuyama</h1><br>
+    <h2>Place of Information, Place of Sharing </h2>
+  </header>
+  <nav class="clearfix">
+    <button onclick="hamburger()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="/lesson12/index.html">Home </a> </li>
+        <li><a href="/lesson12/business.html">Businesses</a> </li>
+        <li><a href="/lesson12/faq.html">FAQ</a></li>
+        <li class="active"><a href="/lesson12/current_members.html">Current Members</a></li>
+        <li><a href="/lesson12/future_members.html">Future members</a></li>
+        
+      </ul>
+  </nav>
+  <br>
+  <main class="clearfix"><br>
+      <h2>Place to obtain and share information</h2>
+
+      <a href="/lesson12/current_members.html">Recent News</a> | <a href="/lesson12/share_info.html">Share Information</a>
+
+      <div class="box1">
+       
+          <h3>Place to Obtain and Share Information</h3>
+          <div class="herostats">
+            <picture class="photoA">
+              <source media="(max-width: 200px)" srcset="/lesson12/images/hero2_200.jpg">
+               <source media="(max-width: 500px)" srcset="/lesson12/images/hero2_500.jpg">
+              <source media="(max-width: 800px)" srcset="/lesson12/images/hero2_800.jpg">
+               <img src="/lesson12/images/hero2_1100.jpg" alt="Higashi-Matsuyama">
+          </picture>
+          
+           </div>
+        
+
+      </div>
+      <h3>Share Your Information</h3>
+     
+
+      <div class="box1">
+       
+        <h3>Fill out the form to Join</h3>
+
+        <p>You will able to join us by filling the form below.</p>
+        <form  method="get" action="thanks2.html">
+          <fieldset>
+            <legend>Your Information</legend>
+            <label class="top">First Name* <input type="text" name="fname" pattern="[A-Za-z]{5,}" required></label>
+            <label class="top">Last Name* <input type="text" name="lname" pattern="[A-Za-z]{5,}" required></label>
+            <label class="top">Title <input type="text" name="title" pattern="[A-Za-z]"></label>
+            <label class="top">Email* <input type="email" name="email" placeholder="someone@pmail.com" required></label>
+            <label class="top">Cell Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+            <label class="top">Business Name*<input type="text" name="bname" required></label>
+            <label class="top">Business Address<input type="text" name="baddress" pattern="[A-Za-z]" ></label>
+            <label class="top">Business Website<input type="text" name="bsite"></label>
+            <label class="top">Business Description<input type="textarea" name="description" rows="4" cols="40"></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Business infromation</legend>
+            <label class="top">Reporting Date<input type="date" name="stormDate"></label>
+            <label class="top">What is your Industry<input type="text" list="datalist" name="business"></label>
+            <datalist id="datalist">
+                <option value="Automobile"></option>
+                <option value="Restaurant"></option>
+                <option value="Wholesale or Retail"></option>
+                <option value="Manufacturing"></option>
+                <option value="Financial"></option>
+                <option value="Others"></option>
+            </datalist>
+          
+            <label class="flexly" for="rating">Business Status(10:very good, 1:very bad): &nbsp;&nbsp;&nbsp;
+              <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+              <span id="ratingvalue">5</span>
+            </label>
+        
+            <datalist id="tickmarks">
+              <option value="0">
+              <option value="1">
+              <option value="2">
+              <option value="3">
+              <option value="4">
+              <option value="5">
+              <option value="6">
+              <option value="7">
+              <option value="8">
+              <option value="9">
+              <option value="10">
+            </datalist>
+
+                     
+                  <label class="top">Your Business severity level</label>
+                  <label class="plan"><input type="radio" name="dangerLevel" value="Good">Good</label>
+                  <label class="plan"><input type="radio" name="dangerLevel" value="somewhatgood">Somewhat Good</label>
+                  <label class="plan"><input type="radio" name="dangerLevel" value="somewhatbad">Somewhat Bad</label>
+                  <label class="plan"><input type="radio" name="dangerLevel" value="bad">Bad</label>
+                  
+
+                  <label class="top">Additional Information or Comments. Challenges, opportunites etc.<br>
+                  <textarea name="comments" rows="10" cols="40"></textarea>
+                
+                  </label>
+            </fieldset>
+
+            <input type="submit" value="Share" class="submitBtn">
+
+
+
+
+        </form>
+
+
+  </main>
+  <footer>
+    &copy;<script type="text/javascript" src="/js/script.js"></script> | The Chamber of Commerce | Higashi-Matsuyama | <a href="https://www.byui.edu/online"
+      id="byui">BYU-I Online Learning</a>
+    
+  </footer>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    webFont.load({google:{families: ["Montserrat"]}});
+  </script>-->
+  
+</body>
+</html>  

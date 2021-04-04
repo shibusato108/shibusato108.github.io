@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-us">
 <head>
-  <title>The Weather Site
+  <title>Higashi-Matsuyama Chamber of Commerce
    
   </title>
     
@@ -10,22 +10,27 @@
   <meta name="description" content="This is a weather site for Preston Idaho.">
  
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="shortcut icon" href="/lesson12/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/lesson11/css/small.css">
-  <link rel="stylesheet" href="/lesson11/css/medium.css">
-  <link rel="stylesheet" href="/lesson11/css/large.css">
-  <link rel="stylesheet" href="/lesson11/css/normalize.css">
+  <link rel="stylesheet" href="/lesson12/css/small.css">
+  <link rel="stylesheet" href="/lesson12/css/medium.css">
+  <link rel="stylesheet" href="/lesson12/css/large.css">
+  <link rel="stylesheet" href="/lesson12/css/normalize.css">
   
  
   
- 
-  <script src="/lesson11/js/script.js" defer></script>
+ <!--<script src="/lesson12/js/script_index.js" defer></script>-->
+  <script src="/lesson12/js/script.js" defer></script>
+  <script src="/lesson12/js/currentweatherapi.js"></script>
+  <script src="/lesson12/js/forecastweather.js"></script>
+  <script src="/lesson12/js/events.js"></script>
   
   
  
 </head>
-<body onload="doInputOutput(); Settoday()">
+
+  <body onload="Settoday()"></body>
+
   <!--<aside style="display: block;">_</aside>-->
   <header>
     <div id="Fri" style="display:none">
@@ -34,32 +39,32 @@
     <div id="others" style="display:none">
     </div>
    
-    <img src="/lesson11/images/rainbow.png" alt="rainbow">
-    <h1>The Weather Site</h1><br>
-    <h2> What a wonderful World</h2>
+    <img class="peony" src="/lesson12/images/peony.jpg" alt="peony">
+    <h1>For All Businesses for Higashi-Matsuyama</h1><br>
+    <h2>Place of Information, Place of Sharing </h2>
   </header>
   <nav class="clearfix">
     <button onclick="hamburger()">&#9776;</button>
     <ul id="primaryNav" class="hide">
-        <li><a href="/lesson11/index.html">Home </a> </li>
-        <li><a href="/lesson11/preston.html">Preston</a> </li>
-        <li><a href="#">Soda Springs</a></li>
-        <li><a href="#">Fish Heaven</a></li>
-        <li class="active"><a href="/lesson11/stormcenter.html">Storm Center</a></li>
-        <li><a href="/lesson11/galery.html">Gallery</a></li>
+        <li><a href="/lesson12/index.html">Home </a> </li>
+        <li><a href="/lesson12/business.html">Directory</a> </li>
+        <li><a href="/lesson12/faq.html">Contact</a></li>
+        <!--<li><a href="/lesson12/current_members.html">Current Members</a></li>-->
+        <li class="active"><a href="/lesson12/future_members.html">Join</a></li>
+        
       </ul>
   </nav>
   <br>
   <main class="clearfix"><br>
-      <h2>Thank you very much</h2>
-      <p>Your from has been successfully sent. Thank you for your coorporation</p>
+    <h2>Thank you very much</h2>
+    <p>Your from has been successfully sent. Thank you for your coorporation</p>
 
-      
+    
+     
        
-         
-  </main>
+</main>
   <footer>
-    &copy;<script type="text/javascript" src="/js/script.js"></script> | The Weather SIte | Preston Idaho | <a href="https://www.byui.edu/online"
+    &copy;<script type="text/javascript" src="/js/script.js"></script> | The Chamber of Commerce | Higashi-Matsuyama | <a href="https://www.byui.edu/online"
       id="byui">BYU-I Online Learning</a>
     
   </footer>
@@ -67,5 +72,6 @@
   <script>
     webFont.load({google:{families: ["Montserrat"]}});
   </script>-->
+  
 </body>
 </html>  

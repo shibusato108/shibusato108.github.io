@@ -1,0 +1,66 @@
+/*----------main--------*/
+h1, h2{color:rgb(105, 74, 243);}
+h1{
+    text-align:center;
+}
+main{
+    width:100%;
+}
+
+img{
+    max-width: 70%;
+   
+}
+
+/*-----class------*/
+
+div.cards{
+    
+   /* display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr; */
+    
+   /* width: fit-content;*/
+    background-color: rgb(199, 168, 240);
+
+}
+
+
+
+.card {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em auto;
+    background-color: #8c7dce;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (min-width: 35em){
+    div.cards{
+    
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        background-color: rgb(199, 168, 240);
+    
+    }
+}
+
+
+@media only screen and (min-width: 70em) {
+
+    div.cards{
+    
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: rgb(199, 168, 240);
+    
+    }
+
+}
+
+

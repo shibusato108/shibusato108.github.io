@@ -1,0 +1,52 @@
+{
+  "businesses": [
+    {
+      "name": "Robert Bosch GmbH",
+      "contact": "3-13-26 Yakyu-cho",
+      "url": "https://corporate.bosch.co.jp/our-company/bosch-in-japan/higashimatsuyama-bosch-corporation/",
+      "imageurl": "https://corporate.bosch.co.jp/media/news/latest/210401-bosch_konzernzentrale_gerlingen-schillerhoehe_2_res_1600x900.jpg"
+    },
+    {
+        "name": "Johoku-Steel Co., Ltd",
+        "contact": "3-13-26 Yakyu-cho",
+        "url": "http://www.johoku-steel.co.jp/",
+        "imageurl": "https://images.ipros.jp/public/company/image/f41/2047280/IPROS1010062171177273459.png?w=220&h=220"
+    },
+    {
+      "name": "AKIM Cooporation",
+      "contact": "860-12 Miyahana",
+      "url": "https://akim.co.jp/",
+      "imageurl": "https://images.ipros.jp/public/company/image/9ab/2085245/IPROS00127621103469857746.jpeg?w=220&h=220"
+    },
+    {
+      "name": "KATANA Cooporation",
+      "contact": "88-34 Shinsato",
+      "url": "https://e-katana.com/",
+      "imageurl": "https://images.ipros.jp/public/company/image/a06/2009250/IPROS3898824066658869086.JPG?w=220&h=220"
+    },
+    {
+      "name": "OSAWA TRANSPORT Inc.",
+      "contact": "1429-2 Shimo-Karako",
+      "url": "http://osawa-jp.com/",
+      "imageurl": "https://images.ipros.jp/public/company/image/2d2/2079826/IPROS64119324602377531525.jpeg?w=220&h=220"
+    },
+    {
+      "name": "SONIC Electric Inc.",
+      "contact": "991-2 Kami-Karako",
+      "url": "https://www.sonicdenshi.co.jp/index.html",
+      "imageurl": "https://images.ipros.jp/public/company/image/719/2077904/IPROS12170702570226255059.PNG?w=220&h=220"
+    },
+    {
+      "name": "Takahashi Seiki Co., Ltd.",
+      "contact": "88-20 Shinsato",
+      "url": "http://takahashi-seiki.co.jp/",
+      "imageurl": "https://images.ipros.jp/public/company/image/27c/2062107/IPROS9151936887723970128.PNG?w=220&h=220"
+    },
+    {
+      "name": "Techno Trading Corporation.",
+      "contact": "2-3-8 Yakyu-Cho",
+      "url": "http://www.techno-trading.co.jp/",
+      "imageurl": "https://images.ipros.jp/public/company/image/2d5/2064809/IPROS2046442365795585047.gif?w=220&h=220"
+    }
+  ]
+}

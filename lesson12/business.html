@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en-us">
 <head>
-  <title>Higashi-Matsuyama Businesses
+  <title>Higashi-Matsuyama Chamber of Commerce
    
   </title>
     
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="This is a chamber of commerce site for Higash-Matsuyama">
+  <meta name="description" content="This is a weather site for Preston Idaho.">
  
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="shortcut icon" href="/lesson12/favicon.ico">
@@ -16,18 +16,21 @@
   <link rel="stylesheet" href="/lesson12/css/medium.css">
   <link rel="stylesheet" href="/lesson12/css/large.css">
   <link rel="stylesheet" href="/lesson12/css/normalize.css">
- 
-  
-
+  <link rel="stylesheet" href="/lesson12/css/directory.css">
   
  
-  <script src="/lesson12/js/script_index.js" defer></script>
+  
+ <!--<script src="/lesson12/js/script_index.js" defer></script>-->
   <script src="/lesson12/js/script.js" defer></script>
   
-
+  <script src="/lesson12/js/directory.js"></script>
+  
+  
  
 </head>
-<body>
+
+  <body onload="Settoday()"></body>
+
   <!--<aside style="display: block;">_</aside>-->
   <header>
     <div id="Fri" style="display:none">
@@ -38,79 +41,27 @@
    
     <img class="peony" src="/lesson12/images/peony.jpg" alt="peony">
     <h1>For All Businesses for Higashi-Matsuyama</h1><br>
-    <h2>Place of Information, Place of Sharing</h2>
+    <h2>Place of Information, Place of Sharing </h2>
   </header>
+  <nav class="clearfix">
+    <button onclick="hamburger()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li class="active"><a href="/lesson12/index.html">Home </a> </li>
+        <li><a href="/lesson12/business.html">Directory</a> </li>
+        <li><a href="/lesson12/faq.html">Contact</a></li>
+        <!--<li><a href="/lesson12/current_members.html">Current Members</a></li>-->
+        <li><a href="/lesson12/future_members.html">Join</a></li>
+        
+      </ul>
+  </nav>
+  <br>
+  <main><br>
+      <h2>Business Directory</h2>
 
- 
-
+      <div class="cards"></div>
   
-  <main class="clearfix"><br>
-      <h2>Welcome to Chamber of Commerce in Higashimatsuyama</h2>
-
-      <nav class="clearfix">
-        <button onclick="hamburger()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="/lesson12/index.html">Home </a> </li>
-            <li class="active"><a href="/lesson12/business.html">Businesses</a> </li>
-            <li><a href="/lesson12/faq.html">FAQ</a></li>
-            <li><a href="/lesson12/current_members.html">Current Members</a></li>
-            <li><a href="/lesson12/future_members.html">Future Members</a></li>
-            
-          </ul>
-      </nav>
-
-     <div class="hero"></div>
-      <picture class="photoA">
-        <source media="(max-width: 200px)" srcset="/lesson12/images/hero2_200.jpg">
-         <source media="(max-width: 500px)" srcset="/lesson12/images/hero2_500.jpg">
-        <source media="(max-width: 800px)" srcset="/lesson12/images/hero2_800.jpg">
-         <img src="/lesson12/images/hero2_1100.jpg" alt="Higash-Matsuyama">
-    </picture>
-  </div>
-         
-
-  
-  <div class="firsttown">
-
-   <p>  <img class="town" src="/lesson12/images/town1.jpg" alt="Higashi-Matsuyama"></p>
-
-   <p> This page is for those who are running businesses in Higashi-Matsuyama. This page will provideintroducing many locations in Idaho, and this can know the weather and storm information.
-    Good thing about this site, you can report storm infromation so that we can share weather as soon as possible.
-    </p>
-  </div>
-  <div class="secondtown">
-   
-    <p>We are helping to provide useful information. Also we are gathering information from many businesses in the city.
-      We have page to provide information.
-    </p>
-    <p> <img class="towntwo" src="/lesson12/images/town2.jpg"></p>
-
-
-  
-    
- 
-  </div>
-
-
-
-
-
-    <div class="contact">
-        <h3>Contact Information</h3>
-        <img class="map" src="/lesson12/images/map.png">
-       
-        <p>Phone: +81-90-3333-2211</p>
-        <p>Email: whatthewonderfulworld@ksksk.com </p>
-
-      </div>
-       
-           
       
        
-
-      
-
-    
   </main>
   <footer>
     &copy;<script type="text/javascript" src="/js/script.js"></script> | The Chamber of Commerce | Higashi-Matsuyama | <a href="https://www.byui.edu/online"
@@ -121,5 +72,6 @@
   <script>
     webFont.load({google:{families: ["Montserrat"]}});
   </script>-->
+  
 </body>
 </html>  
